@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Buoi_14</title>
 </head>
 <body>
     <h1>Bài tập 1</h1>
+    <div class="present">
+        <div class="container w-50 mx-auto">
+            <div class="card-group">
+                <div class="card">
+                    <!-- <img class="card-img-top" data-src="holder.js/100x180/" alt="Card image cap"> -->
+                    <form action="" text-center id="getResult">
+                        <div class="card-body" style="margin-bottom: 3rem;">
+                            <h4 class="card-title">KQ Tuyển sinh đầu vào</h4>
+                            <!-- <p class="card-text">Text</p> -->
+                            <div class="form-group">
+                                <label for="score_standard">Điểm chuẩn</label>
+                                <input type="text" name="" id="score__standard" class="form-control" placeholder="" aria-describedby="helpId">
+                                <!-- <small id="helpId" class="text-muted">Help text</small> -->
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="sub-one">Môn thứ nhất</label>
+                                <input type="text" name="" id="sub__one" class="form-control" placeholder="" aria-describedby="helpId">
+                              
+                                <label for="sub-two">Môn thứ hai</label>
+                                <input type="text" name="" id="sub__two" class="form-control" placeholder="" aria-describedby="helpId">
+                                <label for="sub-three">Môn thứ ba</label>
+                                <input type="text" name="" id="sub__three" class="form-control" placeholder="" aria-describedby="helpId">
+                            </div>
+                            <div class="form-group">
+                              <label for="area">Khu vực</label>
+                              <select class="form-control" name="" id="area">
+                                <option value="2">Khu vực A</option>
+                                <option value="1">Khu vực B</option>
+                                <option value="0.5">Khu vực C</option>
+                                <option value="0">Khu vực X</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="opp">Đối tượng</label>
+                                <select class="form-control" name="" id="opp">
+                                  <option value="2.5">Đối tượng 1</option>
+                                  <option value="1.5">Đối tượng 2</option>
+                                  <option value="1">Đối tượng 3</option>
+                                  <option value="0">Đối tượng không ưu tiên</option>
+                                </select>
+                              </div>
+                              <div class="text-center" style="margin-bottom: 2rem;">
+                                <button type="submit" class="btn btn-primary" id="check__result" >Kiểm tra </button>
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class="result" id="pre-inf">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/index.js"></script>
 </body>
 </html>

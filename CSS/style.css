@@ -1,0 +1,13 @@
+.result {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color: aliceblue;
+}
+
+.nut {
+    border-radius: 10px;
+    background-color: orangered;
+    color: #fff;
+    font-size: 20px;
+}
