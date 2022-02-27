@@ -4,3 +4,25 @@
     color: red;
     background-color: pink;
 }
+.display1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(13, 238, 24);
+    background-color: rgb(173, 207, 121);
+}
+.nut {
+    border: 2px;
+    border-radius: 6px;
+    background-color: aquamarine;
+    color: green !important;
+}
+
+.red__div {
+    background-color: red;
+    color: black;
+}
+
+.green__div {
+    background-color: green;
+    color: black;
+}
